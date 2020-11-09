@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #343a40;
+}
+
+@media (max-width: 376px) {
+  .mobtitle {
+    position: absolute;
+    left: 50%;
+    top: -200px;
+    font-size: 10px;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .visa > div {
+    top: 25%;
+    left: 25%;
+  }
+  .visa > div > img {
+    width: 200px;
+  }
+  .visa > div:first-child {
+    left: "2%";
+  }
+}
